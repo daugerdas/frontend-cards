@@ -1,5 +1,20 @@
-.card {
-    width: 20em;
+.card-container {
+    width: 25em;
+    height: 15em;
+    margin: auto;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.card-content {
+    transform-style: preserve-3d;
+    transition: transform 700ms;
+    position: relative;
+}
+
+.sideA, .sideB {
+    position: absolute;
+    width: 23em;
     height: 12em;
     background-color: #0986F9;
     margin: auto;
@@ -8,8 +23,19 @@
     align-items: center;
     justify-content: center;
     padding: 1em;
+    color: #fff;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
-.card-text {
-    color: #fff;
+.sideB {
+    transform: rotateY( 180deg ) ;
+}
+
+.card-content.flipped {
+    transform: rotateY( 180deg ) ;  
+}
+
+.card-content.not-flipped {
+    transform: rotateY( 0deg ) ;  
 }

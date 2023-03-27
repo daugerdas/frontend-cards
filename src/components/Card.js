@@ -4,8 +4,11 @@ function Card(props) {
   const { sideA, sideB, flipped } = props;
 
   return (
-    <div className="card">
-      <div className="card-text">{flipped ? sideB : sideA}</div>
+    <div className="card-container">
+        <div className={`card-content ${flipped ? "flipped" : "not-flipped"}`}>
+            <div className="sideA">{sideA}</div>
+            <div className="sideB">{sideB}</div>
+        </div>
     </div>
   );
 }
