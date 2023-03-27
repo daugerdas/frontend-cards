@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-cards/static/css/main.ddb98683.css",
+    "main.js": "/frontend-cards/static/js/main.a5fff99e.js",
+    "static/js/787.bd3da5ce.chunk.js": "/frontend-cards/static/js/787.bd3da5ce.chunk.js",
+    "index.html": "/frontend-cards/index.html",
+    "main.ddb98683.css.map": "/frontend-cards/static/css/main.ddb98683.css.map",
+    "main.a5fff99e.js.map": "/frontend-cards/static/js/main.a5fff99e.js.map",
+    "787.bd3da5ce.chunk.js.map": "/frontend-cards/static/js/787.bd3da5ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddb98683.css",
+    "static/js/main.a5fff99e.js"
+  ]
+}
