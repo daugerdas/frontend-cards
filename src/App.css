@@ -3,6 +3,10 @@
   color: #0986F9;
 }
 
+.logo {
+  padding: 2em;
+}
+
 .action-button {
   background-color: #fff;
   border: 1px solid #0986F9;

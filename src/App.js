@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./components/Card";
+import Logo from "./assets/logo.svg"
 import data from "./data/html.json"
 import "./App.css";
 
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Frontend Cards</h1>
+      <img className="logo" src={Logo} alt="Frontend Cards logo" />
       <Card sideA={data[index].sideA} sideB={data[index].sideB} flipped={flipped}/>
       <button className="action-button" onClick={() => setFlipped(prev => !prev)}>Flip card</button>
       <button className="action-button" onClick={() => setIndex(Math.floor(Math.random() * data.length))}>Next card</button>
