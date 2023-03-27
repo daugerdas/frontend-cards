@@ -16,7 +16,6 @@
     position: absolute;
     width: 23em;
     height: 12em;
-    background-color: #0986F9;
     margin: auto;
     border-radius: 1em;
     display: flex;
@@ -29,8 +28,13 @@
     box-shadow: 0.2em 0.2em 0.2em 1px #ddd;
 }
 
+.sideA {
+    background: linear-gradient(131deg, rgba(9,101,186,1) 0%, rgba(9,134,249,1) 35%, rgba(0,212,255,1) 100%);
+}
+
 .sideB {
     transform: rotateY( 180deg ) ;
+    background: linear-gradient(293deg, rgba(9,101,186,1) 0%, rgba(9,134,249,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .card-content.flipped {
