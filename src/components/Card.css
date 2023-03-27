@@ -1,0 +1,14 @@
+.card {
+    width: 20em;
+    height: 12em;
+    background-color: #0986F9;
+    margin: auto;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    color: #fff;
+}
