@@ -1,6 +1,414 @@
 [
     {
-      "sideA": "html",
-      "sideB": "Represents the root (top-level element) of an HTML document, so it is also referred to as the root element."
+        "sideA": "html",
+        "sideB": "This element is the root element of an HTML page. Always include the lang attribute inside the tag, to declare the language of the Web page. This is meant to assist search engines and browsers."
+    },
+    {
+        "sideA": "!DOCTYPE html",
+        "sideB": "Defines that this document is an HTML5 document. All HTML documents must start with this declaration. This declaration is NOT case sensitive."
+    },
+    {
+        "sideA": "head",
+        "sideB": "Contains meta information about the HTML page. This element is a container for the following elements: title, style, meta, link, script, and base."
+    },
+    {
+        "sideA": "title",
+        "sideB": "Specifies a title for HTML document and is required."
+    },
+    {
+        "sideA": "body",
+        "sideB": "Defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc."
+    },
+    {
+        "sideA": "h1 to h6",
+        "sideB": "Defines a large heading. h1 defines the most important heading. h6 defines the least important heading"
+    },
+    {
+        "sideA": "p",
+        "sideB": "Defines a paragraph"
+    },
+    {
+        "sideA": "a",
+        "sideB": "Defines HTML link. The link's destination is specified in the href attribute. target attribute specifies where to open the linked document. Use the id attribute to define bookmarks in a page. Use the href attribute to link to the bookmark."
+    },
+    {
+        "sideA": "img",
+        "sideB": "Defines HTML images. The source file (src), alternative text (alt), width, and height are provided as attributes. The src attribute specifies the path to the image to be displayed."
+    },
+    {
+        "sideA": "br",
+        "sideB": "Inserts a single line break and defines a line break. It is an empty element without a closing tag."
+    },
+    {
+        "sideA": "hr",
+        "sideB": "Defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. This element is used to separate content (or define a change) in an HTML page."
+    },
+    {
+        "sideA": "pre",
+        "sideB": "This element defines preformatted text. The text inside a pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks."
+    },
+    {
+        "sideA": "b",
+        "sideB": "Bold text"
+    },
+    {
+        "sideA": "strong",
+        "sideB": "Important text"
+    },
+    {
+        "sideA": "i",
+        "sideB": "Italic text"
+    },
+    {
+        "sideA": "em",
+        "sideB": "Emphasized text"
+    },
+    {
+        "sideA": "mark",
+        "sideB": "Marked text"
+    },
+    {
+        "sideA": "small",
+        "sideB": "Smaller text"
+    },
+    {
+        "sideA": "del",
+        "sideB": "Deleted text"
+    },
+    {
+        "sideA": "ins",
+        "sideB": "Inserted text"
+    },
+    {
+        "sideA": "sub",
+        "sideB": "Subscript text"
+    },
+    {
+        "sideA": "sup",
+        "sideB": "Superscript text"
+    },
+    {
+        "sideA": "blockquote",
+        "sideB": "Defines a section that is quoted from another source."
+    },
+    {
+        "sideA": "q",
+        "sideB": "Defines a short quotation."
+    },
+    {
+        "sideA": "abbr",
+        "sideB": "Defines an abbreviation or an acronym."
+    },
+    {
+        "sideA": "address",
+        "sideB": "Defines the contact information for the author/owner of a document or an article."
+    },
+    {
+        "sideA": "cite",
+        "sideB": "Defines the title of a creative work."
+    },
+    {
+        "sideA": "map",
+        "sideB": "Defines an image map. An image map is an image with clickable areas. The areas are defined with one or more area tags. Use the HTML usemap attribute of the img element to point to an image map."
+    },
+    {
+        "sideA": "picture",
+        "sideB": "This element allows you to display different pictures for different devices or screen sizes. The picture element contains one or more elements, each referring to different images through the srcset attribute. Each source element has a media attribute that defines when the image is the most suitable."
+    },
+    {
+        "sideA": "link",
+        "sideB": "Defines the relationship between a document and an external resource. Use the HTML link element to insert a favicon. This element is most often used to link to external style sheets."
+    },
+    {
+        "sideA": "table",
+        "sideB": "Defines a table."
+    },
+    {
+        "sideA": "th",
+        "sideB": "Defines a header cell in a table."
+    },
+    {
+        "sideA": "tr",
+        "sideB": "Defines a row in a table."
+    },
+    {
+        "sideA": "td",
+        "sideB": "Defines a cell in a table."
+    },
+    {
+        "sideA": "caption",
+        "sideB": "Defines a table caption."
+    },
+    {
+        "sideA": "colgroup",
+        "sideB": "Specifies a group of one or more columns in a table for formatting."
+    },
+    {
+        "sideA": "col",
+        "sideB": "Specifies column properties for each column within a colgroup element."
+    },
+    {
+        "sideA": "thead",
+        "sideB": "Groups the header content in a table."
+    },
+    {
+        "sideA": "tbody",
+        "sideB": "Groups the body content in a table."
+    },
+    {
+        "sideA": "tfoot",
+        "sideB": "Groups the footer content in a table."
+    },
+    {
+        "sideA": "ul",
+        "sideB": "Defines an unordered list. The CSS list-style-type property is used to define the style of the list item marker."
+    },
+    {
+        "sideA": "ol",
+        "sideB": "Defines an ordered list. The type attribute of the ol tag, defines the type of the list item marker."
+    },
+    {
+        "sideA": "li",
+        "sideB": "Defines a list item."
+    },
+    {
+        "sideA": "dl",
+        "sideB": "Defines a description list."
+    },
+    {
+        "sideA": "dt",
+        "sideB": "Defines a term in a description list."
+    },
+    {
+        "sideA": "dd",
+        "sideB": "Describes the term in a description list."
+    },
+    {
+        "sideA": "div",
+        "sideB": "It is a block-level and is often used as a container for other HTML elements"
+    },
+    {
+        "sideA": "span",
+        "sideB": "It is an inline container used to mark up a part of a text, or a part of a document."
+    },
+    {
+        "sideA": "iframe",
+        "sideB": "Specifies an inline frame. The src attribute defines the URL of the page to embed."
+    },
+    {
+        "sideA": "script",
+        "sideB": "This tag is used to define a client-side script. The script element either contains script statements, or it points to an external script file through the src attribute."
+    },
+    {
+        "sideA": "noscript",
+        "sideB": "Defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support scripts."
+    },
+    {
+        "sideA": "style",
+        "sideB": "This element is used to define style information for a single document."
+    },
+    {
+        "sideA": "meta",
+        "sideB": "This element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings."
+    },
+    {
+        "sideA": "base",
+        "sideB": "This element specifies the base URL and/or target for all relative URLs in a page."
+    },
+    {
+        "sideA": "header",
+        "sideB": "Defines a header for a document or a section."
+    },
+    {
+        "sideA": "nav",
+        "sideB": "Defines a set of navigation links."
+    },
+    {
+        "sideA": "section",
+        "sideB": "Defines a section in a document."
+    },
+    {
+        "sideA": "article",
+        "sideB": "Defines an independent, self-contained content."
+    },
+    {
+        "sideA": "aside",
+        "sideB": "Defines content aside from the content (like a sidebar)."
+    },
+    {
+        "sideA": "footer",
+        "sideB": "Defines a footer for a document or a section."
+    },
+    {
+        "sideA": "details",
+        "sideB": "Defines additional details that the user can open and close on demand."
+    },
+    {
+        "sideA": "summary",
+        "sideB": "Defines a heading for the details element."
+    },
+    {
+        "sideA": "kbd",
+        "sideB": "This element defines keyboard input."
+    },
+    {
+        "sideA": "samp",
+        "sideB": "This element defines sample output from a computer program."
+    },
+    {
+        "sideA": "code",
+        "sideB": "This element defines a piece of computer code."
+    },
+    {
+        "sideA": "var",
+        "sideB": "This element defines a variable in programming or in a mathematical expression."
+    },
+    {
+        "sideA": "pre",
+        "sideB": "This element defines preformatted text."
+    },
+    {
+        "sideA": "figcaption",
+        "sideB": "Defines a caption for a figure element."
+    },
+    {
+        "sideA": "figure",
+        "sideB": "Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc."
+    },
+    {
+        "sideA": "main",
+        "sideB": "Specifies the main content of a document."
+    },
+    {
+        "sideA": "time",
+        "sideB": "Defines a date/time."
+    },
+    {
+        "sideA": "form",
+        "sideB": "This element is used to create an HTML form for user input. The action attribute defines the action to be performed when the form is submitted."
+    },
+    {
+        "sideA": "input",
+        "sideB": "Defines an input control."
+    },
+    {
+        "sideA": "textarea",
+        "sideB": "Defines a multiline input control (text area)."
+    },
+    {
+        "sideA": "label",
+        "sideB": "Defines a label for an element."
+    },
+    {
+        "sideA": "fieldset",
+        "sideB": "Groups related elements in a form."
+    },
+    {
+        "sideA": "legend",
+        "sideB": "Defines a caption for a fieldset element."
+    },
+    {
+        "sideA": "select",
+        "sideB": "Defines a drop-down list."
+    },
+    {
+        "sideA": "optgroup",
+        "sideB": "Defines a group of related options in a drop-down list."
+    },
+    {
+        "sideA": "option",
+        "sideB": "Defines an option in a drop-down list."
+    },
+    {
+        "sideA": "button",
+        "sideB": "Defines a clickable button."
+    },
+    {
+        "sideA": "datalist",
+        "sideB": "Specifies a list of pre-defined options for input controls."
+    },
+    {
+        "sideA": "output",
+        "sideB": "Defines the result of a calculation."
+    },
+    {
+        "sideA": "canvas",
+        "sideB": "Element is used to draw graphics via JavaScript."
+    },
+    {
+        "sideA": "svg",
+        "sideB": "Element is a container for SVG graphics."
+    },
+    {
+        "sideA": "video",
+        "sideB": "Element is used to show a video on a web page."
+    },
+    {
+        "sideA": "audio",
+        "sideB": "Defines sound content."
+    },
+    {
+        "sideA": "source",
+        "sideB": "Defines multiple media resources for media elements, such as video and audio."
+    },
+    {
+        "sideA": "object",
+        "sideB": "Element defines an embedded object within an HTML document."
+    },
+    {
+        "sideA": "embed",
+        "sideB": "Defines an embedded object within an HTML document."
+    },
+    {
+        "sideA": "!--...--",
+        "sideB": "Defines a comment."
+    },
+    {
+        "sideA": "bdi",
+        "sideB": "Isolates a part of text that might be formatted in a different direction from other text outside it."
+    },
+    {
+        "sideA": "data",
+        "sideB": "Adds a machine-readable translation of a given content."
+    },
+    {
+        "sideA": "dfn",
+        "sideB": "Specifies a term that is going to be defined within content."
+    },
+    {
+        "sideA": "dialog",
+        "sideB": "Defines a dialog box or window."
+    },
+    {
+        "sideA": "meter",
+        "sideB": "Defines a scalar measurement within a known range (a gauge)."
+    },
+    {
+        "sideA": "param",
+        "sideB": "Defines a parameter for an object."
+    },
+    {
+        "sideA": "progress",
+        "sideB": "Represents the progress of a task."
+    },
+    {
+        "sideA": "s",
+        "sideB": "Defines text that is no longer correct."
+    },
+    {
+        "sideA": "template",
+        "sideB": "Defines a container for content that should be hidden when the page loads."
+    },
+    {
+        "sideA": "track",
+        "sideB": "Defines text tracks for media element (video and audio)."
+    },
+    {
+        "sideA": "u",
+        "sideB": "Defines some text that is unarticulated and styled differently from normal text."
+    },
+    {
+        "sideA": "wbr",
+        "sideB": "It specifies where in a text it would be ok to add a line-break."
     }
 ]
