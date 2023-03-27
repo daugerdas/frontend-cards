@@ -6,7 +6,7 @@ function Card(props) {
   return (
     <div className="card-container">
         <div className={`card-content ${flipped ? "flipped" : "not-flipped"}`}>
-            <div className="sideA">{sideA}</div>
+            <div className="sideA"><h1>{sideA}</h1></div>
             <div className="sideB">{sideB}</div>
         </div>
     </div>

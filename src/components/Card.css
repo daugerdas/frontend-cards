@@ -26,6 +26,7 @@
     color: #fff;
     transform-style: preserve-3d;
     backface-visibility: hidden;
+    box-shadow: 0.2em 0.2em 0.2em 1px #ddd;
 }
 
 .sideB {
