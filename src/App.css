@@ -2,3 +2,12 @@
   text-align: center;
   color: #0986F9;
 }
+
+.action-button {
+  background-color: #fff;
+  border: 1px solid #0986F9;
+  color: #0986F9;
+  padding: 1em 2em;
+  border-radius: 2em;
+  margin: 1em;
+}
